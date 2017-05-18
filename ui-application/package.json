@@ -1,0 +1,25 @@
+{
+  "name": "ui-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "gulp sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "carbon-components": "^7.4.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "node-sass-chokidar": "^0.0.1",
+    "npm-run-all": "^4.0.2",
+    "postcss-cli": "^4.0.0"
+  }
+}

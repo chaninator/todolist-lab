@@ -1,0 +1,55 @@
+$css--reset: true;
+$css--font-face: true;
+$font-path: 'fonts';
+
+@import '../node_modules/carbon-components/src/globals/scss/styles.scss';
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.todoList-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  width: 500px;
+}
+
+.item {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin: .5rem;
+  width: 500px;
+}
+
+.bx--checkbox-label {
+  margin-left: 1rem;
+}
+
+.button {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+svg {
+  fill: white;
+  cursor: pointer;
+}
+
+// @import 'button';
+// @ import 'checkbox';

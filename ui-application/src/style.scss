@@ -1,16 +1,31 @@
 $css--reset: true;
 $css--body: true;
 $css--font-face: true;
+$font-path: 'fonts';
 
-@import '../node_modules/carbon-components/scss/globals/scss/styles.scss';
+@import '../node_modules/carbon-components/src/globals/scss/styles.scss';
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h2 {
+  font-weight: bold;
+}
 
 .todoList-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 500px;
-  background: red;
   margin: 0 auto;
+}
+
+.bx--text-input {
+  margin: 1rem; 
 }
 
 .item {
@@ -19,7 +34,7 @@ $css--font-face: true;
   justify-content: space-between;
   background: white;
   margin: .5rem;
-  width: 400px;
+  width: 500px;
 }
 
 .bx--checkbox-label {
@@ -28,6 +43,8 @@ $css--font-face: true;
 
 .button {
   margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 svg {

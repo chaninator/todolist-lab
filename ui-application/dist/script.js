@@ -46,15 +46,6 @@ function loadItems() {
 //on page load, call load items
 loadItems();
 
-const oldTodoItem = () => {
-  return (
-    '<li class="items"><input class="toggle" type="checkbox">' +
-    todos[i].todo +
-    '<button class="button" onclick="deleteItem(' +
-    i +
-    ')">X</button></li>'
-  );
-};
 //refresh the list by first emptying it, then appending items from todo array
 function refreshList() {
   $('#todoList').empty();

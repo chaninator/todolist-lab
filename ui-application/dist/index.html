@@ -4,13 +4,16 @@
   <meta charset=utf-8 />
   <meta name="description" content="description">
   <title>Todo List</title>
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="bx--body">
   <div class="todoList-container">
     <h2>Todo List</h2>
-    <input class="bx--text-input" type="text" id="inputText" placeholder="What needs to be done?" />
+    <div class="text-input-wrapper">
+      <label for="inputText" class="bx--label">What needs to be done?</label>
+      <input id="inputText" type="text" class="bx--text-input" placeholder="Write a todo item here, then press enter">
+    </div>
     <ul id="todoList" class="todoList">
     </ul>
   </div>

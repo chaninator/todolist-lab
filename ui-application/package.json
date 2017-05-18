@@ -4,21 +4,22 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "scss:build": "node-sass-chokidar src/ -o dist/",
-    "scss:watch": "node-sass-chokidar src/ -o dist/ --watch --recursive",
-    "autoprefixer": "postcss dist/style.css --use autoprefixer -o dist/style.css",
-    "scss": "npm-run-all autoprefixer scss:*"
+    "dev": "gulp sass"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "carbon-components": "^7.4.3",
-    "npm-run-all": "^4.0.2"
+    "carbon-components": "^7.4.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
     "node-sass-chokidar": "^0.0.1",
+    "npm-run-all": "^4.0.2",
     "postcss-cli": "^4.0.0"
   }
 }

@@ -1,5 +1,6 @@
 $css--reset: true;
-$css--body: true;
+
+// optional for fonts
 $css--font-face: true;
 $font-path: 'fonts';
 
@@ -10,10 +11,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
-
-h2 {
-  font-weight: bold;
 }
 
 .todoList-container {

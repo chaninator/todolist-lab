@@ -4200,9 +4200,6 @@ body {
   justify-content: center;
   height: 100vh; }
 
-h2 {
-  font-weight: bold; }
-
 .todoList-container {
   display: flex;
   flex-direction: column;

@@ -4207,10 +4207,15 @@ textarea[data-invalid] {
   align-items: center;
   justify-content: space-between;
   background: white;
-  padding: .5rem;
   margin: .5rem;
   width: 400px; }
 
+.bx--checkbox-label {
+  margin-left: 1rem; }
+
 .button {
-  fill: red;
+  margin: 0; }
+
+svg {
+  fill: white;
   cursor: pointer; }
